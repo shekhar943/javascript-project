@@ -61,7 +61,7 @@ for(var i=0;i<arr.length;i++){
 
 //DOM DOCUMENT OBJECT MODEL
 
-let ele=document.getElementById('click');
+/*let ele=document.getElementById('click');
 console.log(ele);
 
 let elecls=document.getElementsByClassName('container');
@@ -73,3 +73,13 @@ console.log(ele.innerHTML);
 function clicked(){
   console.log('this is a button')
 }
+*/
+
+
+var x=50;
+var fun=function(){
+    
+  console.log(x);
+  var x=20;
+}
+fun();
